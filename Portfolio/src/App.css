@@ -1,0 +1,14 @@
+.container{
+    max-width: 1920px !important;
+    margin: 0;
+    position: relative;
+    /* left: 10px; */
+
+    /*sizing problem*/
+}
+
+@media (max-width:2050px) {
+    .container{
+        padding: 0 1.5rem;
+    }
+}

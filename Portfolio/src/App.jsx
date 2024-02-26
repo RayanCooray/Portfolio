@@ -1,0 +1,26 @@
+import { useState } from 'react'
+import Navbar from './components/Navbar/Navbar'
+import Hero from './components/Hero/Hero'
+import './App.css';
+import Skills from './components/Skills/Skills';
+import WorkExperience from './components/WorkExperience/WorkExperience';
+import ContactMe from './components/ContactMe/ContactMe';
+import Footer from './components/Footer/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+function App() {
+  return (
+    <>
+    <Navbar/>
+    <div className='container'>
+    <Hero/>
+    <Skills/>
+    <WorkExperience/>
+    <ContactMe/>
+    <Footer/>
+    </div>
+    </>
+  )
+}
+
+export default App
