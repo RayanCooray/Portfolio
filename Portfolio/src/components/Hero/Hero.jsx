@@ -8,6 +8,7 @@ const Hero = () => {
         <div className='hero-content'>
             <h2>Building Digital Experiences That Inspire</h2>
             <p>
+                Im Rayan Cooray.
                 Passionate Full Stack Developer | Transforming Ideas into
                 seamless and visually Stunning Web Soultions
             </p>
